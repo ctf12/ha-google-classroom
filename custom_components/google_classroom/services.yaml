@@ -1,0 +1,15 @@
+get_classes:
+  name: Get classes
+  description: Read cached announcements, classwork, and people.
+  fields:
+    config_entry_id:
+      name: Account
+      description: Choose a Google Classroom account if you connected more than one.
+      selector:
+        config_entry:
+          integration: google_classroom
+    course_id:
+      name: Class ID
+      description: Return one class. Leave blank to return all active classes.
+      selector:
+        text:

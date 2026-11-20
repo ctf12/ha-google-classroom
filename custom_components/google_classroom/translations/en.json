@@ -1,0 +1,23 @@
+{
+  "config": {
+    "abort": {
+      "cannot_connect": "Could not connect to Google Classroom.",
+      "classroom_access_denied": "Google denied Classroom access. Check the project's Classroom API and the account's access policy.",
+      "missing_refresh_token": "Google did not provide a refresh token. Authorize offline access and try again.",
+      "wrong_account": "Sign in with the Google account already linked to this entry."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Google Classroom refresh",
+        "data": {
+          "refresh_hours": "Refresh interval in hours"
+        },
+        "data_description": {
+          "refresh_hours": "The default is 4 hours. Enter a value between 0.25 and 168."
+        }
+      }
+    }
+  }
+}
