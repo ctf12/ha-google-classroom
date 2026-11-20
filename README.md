@@ -4,6 +4,14 @@ A read-only integration for a student account. It syncs active classes on setup 
 
 ## Install the integration
 
+### Home Assistant Marketplace
+
+On Home Assistant 2026.11.2 or later, open **Settings → Marketplace → Add from link**. Enter `https://github.com/ctf12/ha-google-classroom` and choose **Integration** if prompted. Open **Google Classroom** in the Marketplace and select **Install**.
+
+Marketplace installs require a public GitHub repository and a connected GitHub account. If GitHub reports **Not found**, check that the repository URL is correct and publicly accessible, or use the manual install below. [Home Assistant custom repositories](https://www.home-assistant.io/integrations/marketplace/#custom-repositories)
+
+### Manual installation
+
 Copy the repository's `custom_components/google_classroom` directory into your Home Assistant configuration directory. The resulting path should be `/config/custom_components/google_classroom/manifest.json`. Restart Home Assistant before adding the integration.
 
 ## Set up Google Cloud
